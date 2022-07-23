@@ -1,0 +1,33 @@
+{
+  "HC":
+  {
+    "runs":3,
+    "steps":500,
+    "rand_move_prob": 0.25
+  },
+  "SA":
+  {
+    "runs":3,
+    "steps":500,
+    "init_temp":100,
+    "temp_decay":1.2
+  },
+  "BS":
+  {
+    "pop_size":500,
+    "steps":500,
+    "init_temp":200,
+    "temp_decay":0.99,
+    "max_neighbors":3
+  },
+  "TSP":
+  {
+    "select":"best"
+  },
+  "VRP":
+  {
+    "num_vehicles":3,
+    "start_city":"Dallas",
+    "cost":"max"
+  }
+}
